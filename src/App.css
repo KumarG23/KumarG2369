@@ -70,6 +70,7 @@ header {
 #icon {
   color: #81b14f;
   cursor: url(assets/chopsticks-other.png), auto;
+  margin: 5px;
 }
 
 #iconContainer:hover {

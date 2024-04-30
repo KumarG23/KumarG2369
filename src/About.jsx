@@ -8,11 +8,14 @@ const Nav = () => {
     <nav className="nav d-flex justify-content-center text-center">
               <ul className="fs-5 list-unstyled" id="navlist">
                 <li>
+                  <Link className="btn mt-3 fw-bold" id="icon"  to='/'>{'Home'}</Link>
+                </li>
+                <li>
                   <Link className="btn mt-3 fw-bold" id="icon" to='/about'>About</Link>
                 </li>
                 <li className="btn mt-3  fw-bold" id="icon" to='/experience'>Experience</li>
                 <li className="btn mt-3 fw-bold" id="icon" to='/projects'>Projects</li>
-                <li className="btn mt-3 fw-bold" id="icon" to='/blog'>Blog</li>
+                <li><Link className="btn mt-3 fw-bold" id="icon" to='/sprint-4'>Blog</Link></li>
               </ul>
             </nav>
   )
@@ -33,7 +36,6 @@ function About() {
   return (
     <div className="p-5">
       <Nav className="d-flex"/>
-      <Link style={{color: "brown"}} to='/'>{'Home'}</Link>
       <RightSide />
 
       

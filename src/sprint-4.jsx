@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import { Navigation } from './About';
 import BlogTemplate from "./blog-temp";
 
@@ -23,6 +24,7 @@ const SprintFour = () => {
         <div>
             <BlogTemplate blogData={blogData} />
         </div>
+        <Link id="icon" to='/sprint-5'>Sprint 5</Link>
         </div>
     );
 };

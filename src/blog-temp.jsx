@@ -12,7 +12,7 @@ const BlogQuestion = ({ question }) => (
 );
 
 const BlogAnswer = ({ answer }) => (
-    <div className="d-flex p-5">{answer}</div>
+    <div className="text-center p-5 ms-5 me-5">{answer}</div>
 );
 
 // const NextButton = ({ buttonText, link }) => (

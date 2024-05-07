@@ -1,6 +1,11 @@
+import { Navigation } from "./About";
+
+
+
 const SprintThree = () => {
     return (
         <div id="container" className="d-flex column flex-md-row">
+            <Navigation />
             <div className="d-flex justify-content-center col-8">
                 <h1>Sprint 3</h1>
                 <h2 id="question" className="d-flex justify-content-center text-center">
@@ -31,3 +36,5 @@ const SprintThree = () => {
         </div>
     )
 }
+
+export default SprintThree;

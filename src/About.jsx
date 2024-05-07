@@ -15,7 +15,7 @@ const Nav = () => {
                 </li>
                 <li className="btn mt-3  fw-bold" id="icon" to='/experience'>Experience</li>
                 <li className="btn mt-3 fw-bold" id="icon" to='/projects'>Projects</li>
-                <li><Link className="btn mt-3 fw-bold" id="icon" to='/sprint-4'>Blog</Link></li>
+                <li><Link className="btn mt-3 fw-bold" id="icon" to='/blog-main'>Blog</Link></li>
               </ul>
             </nav>
   )

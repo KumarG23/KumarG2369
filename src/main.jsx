@@ -16,6 +16,8 @@ import "bootstrap/dist/js/bootstrap.bundle.min";
 import About from './About'
 import App from './App'
 import ErrorPage from './ErrorPage'
+import BlogMain from './blog-main'
+import SprintThree from './sprint-3'
 import SprintFour from './sprint-4'
 import SprintFive from './sprint-5'
 
@@ -30,6 +32,14 @@ const router = createBrowserRouter([
   {
     path: '/about',
     element: <About />
+  },
+  {
+    path: '/blog-main',
+    element: <BlogMain />
+  },
+  {
+    path: '/sprint-3',
+    element: <SprintThree />
   },
   {
     path: '/sprint-4',

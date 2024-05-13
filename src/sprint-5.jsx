@@ -1,5 +1,6 @@
 import { Navigation } from "./About";
 import BlogTemplate from "./blog-temp";
+import { Link } from "react-router-dom";
 
 const blogData = {
     title: 'Sprint 5',
@@ -22,6 +23,7 @@ const SprintFive = () => {
         <div>
             <BlogTemplate blogData={blogData} />
         </div>
+        <Link id='icon' to='/sprint-6'>Sprint 6</Link>
         </div>
     );
 };

@@ -20,6 +20,7 @@ import BlogMain from './blog-main'
 import SprintThree from './sprint-3'
 import SprintFour from './sprint-4'
 import SprintFive from './sprint-5'
+import SprintSix from './sprint-6'
 
 const site = import.meta.env.BASE_URL
 
@@ -49,6 +50,10 @@ const router = createBrowserRouter([
     path: '/sprint-5',
     element: <SprintFive />
   },
+  {
+    path: '/sprint-6',
+    element: <SprintSix />
+  }
 ], {
   basename: site
 })
